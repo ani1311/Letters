@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Letters from {{.Name}}</title>
+</head>
+<body>
+    <h1>Letters from {{.Name}}</h1>
+
+    <ul>
+        {{range .Letters}}
+        <li>{{.Title}}</li>
+        {{end}}
+    </ul>
+</body>
+</html>
